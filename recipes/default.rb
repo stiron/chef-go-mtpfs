@@ -7,8 +7,6 @@
 # All rights reserved - Do Not Redistribute
 #
 
-package "apt-transport-https"
-
 include_recipe "apt"
 
 apt_repository 'go-mtpfs-repo' do
